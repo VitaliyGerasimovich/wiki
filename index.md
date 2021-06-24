@@ -1,5 +1,5 @@
 # Howki Wiki
-## Linux 
+## Linux
 * [GNU](GNU.md)
 * [vim](vim.md)
 * [kernel](kernel.md)
@@ -24,6 +24,7 @@
 * [disk](disk.md)
 * [boot](boot.md)
 * [text_processing](text_processing.md)
+* [git](git.md)
 
 ## Programming languages
 * [python](python.md)
