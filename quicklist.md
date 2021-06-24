@@ -1,0 +1,12 @@
+# quicklist
+- cnext
+- cprev
+- cfirst
+- clast
+- cnfile
+- cpfile
+- cc N
+- copen
+- cclose
+- cdo
+- cfdo

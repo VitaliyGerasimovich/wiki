@@ -1,0 +1,12 @@
+# systemd mount
+- [Unit] :
+  - Description=[some explanation]
+- [Mount] :
+  - What=[/dev/sda]
+  - Where=[/home]
+  - Type=[btrfs]
+  - Options=[defaults]
+  - SloppyOptions=[on/off]
+  - TimeOutSec=[10]
+- [Install] :
+  - WantedBy=[multi-user.target]

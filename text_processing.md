@@ -1,0 +1,32 @@
+# Commands for text processings
+
+- `cat` => concatinate file streams [-A (all characters)]
+- `sort` => sort file streams [-n (numeric)] :
+  - `--ley=1,1 --key=2n`
+  - `--key 3.7nbr`
+  - `--t :`
+- `uniq` => file uniq lines in file stream :
+  - [ -c ] => duplicated lines with number of duplicates (23- , 23-25)
+  - [ -d ] => display only duplicated lines
+  - [ -i ] => case insensitive
+  - [ -s [number] ] => skip [number] characters from beginning line
+  - [ -u ] => display only uniq lines
+- `cut` => cut fragments of files :
+  - [ -c [list numbers of characters] ] => characters
+  - [ -f [list of fields] ] => fields
+  - [ -d [delimiter] ]
+  - `--complement`
+- `paste` => 
+- `join` =>
+- `comm` =>
+- `diff` =>
+- `patch` =>
+- `tr` =>
+- `sed` =>
+- `awk` =>
+- `aspell` => spell checking
+- `nl` => numering lines
+- `fold` => wrap text
+- `fmt` => formatting text
+- `pr` => formatting for printing
+- `groff` => system for formatting documents
