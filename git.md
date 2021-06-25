@@ -16,41 +16,44 @@ retieve that content.
   2. commiter => who working with this commit (can be different persons)
   3. date
   4. message
-  5. parents => pointer to preview state of system / project
-7. 
+  5. parent => pointer to preview state of system / project
+7.
 8. references :
   1. branches (master => default branch)
   2. tags
 9. HEAD - top ponter commit
 10. Branch - pointer to commit
 
-- `git config` :
+- `git-config` :
   - --local => to current projecr
   - --user => to current user
   - --global => to current system
-- `git init`
-- `git log`
-- `git status` :
+- `git-init`
+- `git-log [--oneline --graph --all]`
+- `git-status` :
   - tracked :
     - modified => after input to file
     - commited => after commit
     - staged => after add
   - untracked
-- `git add`
-- `git commit -m [-a]`
-- `git show`
-- `git restore [--staged] [file]`
-- `git diff [--staged]`
-- `git mv` => move / rename
-- `git rm [--cached]` => remove
-- `git branch [-dD] [name of branch]`
-- `git checkout [-b] [branch]`
-- `git merge [2-nd branch]`
-- `git reset [--hard]`
-- `git push [--set-upstream origin master] [-f] [--tags]`
-- `git pull`
-- `git remote add origin [URL]`
-- `git fetch [ origin ]`
-- `git rebase`
-- `git tag [-a] [name]`
-- `git cat-file [-p]`
+- `git-add`
+- `git-commit -m [-a]`
+- `git-show`
+- `git-restore [--staged] [file]`
+- `git-diff [--staged] [@[^~][12]]`
+- `git-mv` => move / rename
+- `git-rm [--cached]` => remove
+- `git-branch [-dD] [name of branch]`
+- `git-checkout [-b] [branch]`
+- `git-merge [2-nd branch]`
+- `git-reset [--hard] [--soft]`
+- `git-push [--set-upstream origin master] [-f] [--tags]`
+- `git-pull`
+- `git-remote add origin [URL]`
+- `git-fetch [ origin ]`
+- `git-rebase [--continue]`
+- `git-tag [-a] [name]`
+- `git-cat-file [-p]`
+- `git-cherry-pick`
+- `git-revert` => depatch
+- `git-reflog`
