@@ -17,43 +17,58 @@ retieve that content.
   3. date
   4. message
   5. parent => pointer to preview state of system / project
-7.
-8. references :
+7. references :
   1. branches (master => default branch)
   2. tags
-9. HEAD - top ponter commit
-10. Branch - pointer to commit
+8. HEAD - top ponter commit
+9. Branch - pointer to commit
+10. ^ - in width
+11. ~ - in depth
 
 - `git-config` :
   - --local => to current projecr
   - --user => to current user
   - --global => to current system
 - `git-init`
-- `git-log [--oneline --graph --all]`
+- `git-log [--oneline --graph --all] [--since="1 weeks ago"] [-p]`
 - `git-status` :
   - tracked :
     - modified => after input to file
     - commited => after commit
     - staged => after add
   - untracked
-- `git-add`
+- `git-add [-p]`
 - `git-commit -m [-a]`
-- `git-show`
+- `git-show [HEAD^1|2] [v:test/file.c]`
 - `git-restore [--staged] [file]`
-- `git-diff [--staged] [@[^~][12]]`
+- `git-diff [--staged] [@[^~][12]] [master..test]`
 - `git-mv` => move / rename
 - `git-rm [--cached]` => remove
 - `git-branch [-dD] [name of branch]`
 - `git-checkout [-b] [branch]`
-- `git-merge [2-nd branch]`
+- `git-merge [2-nd branch] [--no-ff]`
 - `git-reset [--hard] [--soft]`
 - `git-push [--set-upstream origin master] [-f] [--tags]`
-- `git-pull`
 - `git-remote add origin [URL]`
+- `git-pull [-r]` => fetch && rebase (merge)
 - `git-fetch [ origin ]`
 - `git-rebase [--continue]`
 - `git-tag [-a] [name]`
-- `git-cat-file [-p]`
+- `git-cat-file [-p (content) | -t (type)]`
 - `git-cherry-pick`
 - `git-revert` => depatch
 - `git-reflog`
+- `git-stash`
+- `git-clone`
+- `git-rev-parse`
+- `git-hash-object [-w] [--stdin]`
+- `git-ls-tree`
+- `git-update-index`
+- `git-write-tree`
+- `git-commit-tree`
+- `git-bisect`
+- `git-rev-parse`
+- `git-rev-list`
+- `git-format-patch`
+- `gitk`
+- `git-describe`
